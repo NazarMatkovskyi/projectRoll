@@ -1,0 +1,16 @@
+.home {
+  width: max-content;
+  height: auto;
+  font-family: 'Montserrat', sent-serif;
+}
+
+.home .home_title {
+
+  color: #38a3a5;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.home .home_inner {
+  margin-top: 30px;
+}

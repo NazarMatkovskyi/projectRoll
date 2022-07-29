@@ -1,0 +1,141 @@
+input::placeholder {
+  color: #8f9bb3;
+  font-size: 14px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 10px;
+  color: #2e3a59;
+  font-family: 'Montserrat', sent-serif;
+}
+
+
+table td,
+table th {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+table tr:nth-child(even) {
+  background-color: #fafdfd;
+}
+
+table tr {
+  border: 0.5px solid #cdeaea;
+}
+
+table tr:hover {
+  background-color: #f2fcfc;
+}
+table td:nth-last-child(-n + 6) {
+  text-align: right;
+}
+table th {
+  padding-top: 22px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f2fcfc;
+  color: #22577a;
+}
+.table_openDrop {
+  transform: rotate(90deg);
+  position: absolute;
+  margin-left: 1057px;
+  margin-top: 37px;
+  padding: 4px 16px;
+  cursor: pointer;
+  background-color: #cdeaea;
+}
+
+.dropTable {
+  position: absolute;
+  margin-left: 792px;
+  padding: 4px 16px;
+  cursor: pointer;
+  background-color: #fff;
+  display: grid;
+  border: 0.5px solid #cdeaea;
+}
+.dropTable .dropTable_title {
+  color: #22577a;
+  padding: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  grid-gap: 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+.dropTable .dropTable_search {
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 5px 17px;
+  margin-bottom: 10px;
+  color: #8f9bb3;
+  font-size: 14px;
+}
+.dropTable .dropTable_info {
+  padding: 5px 35px;
+  color: #8f9bb3;
+  font-size: 14px;
+  line-height: 16px;
+}
+.dropTable .dropTable_info label {
+  display: flex;
+  align-items: center;
+  grid-gap: 7px;
+}
+.dropTable_name {
+  color: #22577a;
+}
+.dropTable_nameOne {
+  color: #8f9bb3;
+  font-weight: 400;
+}
+.dropTable_drag{
+  margin-left: -24px;
+}
+
+/* test*/
+.dropTable_info_last {
+  padding: 15px 35px 15px 25px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  grid-gap: 8px;
+}
+.dropTable_info_check {
+  border: 1px solid #22577a;
+  width: 13px;
+  height: 13px;
+  border-radius: 4px;
+  margin-left: 3px;
+  margin-top: 1px;
+}
+.dropTable_info_checkOne {
+  border: 2px solid #22577a;
+  width: 13px;
+  height: 13px;
+  border-radius: 4px;
+  margin-left: 3px;
+  margin-top: 1px;
+}
+.dropTable_info_checked {
+  width: 20px;
+  height: 20px;
+}
+
+.dropTable_info_inner-active {
+  display: flex;
+  align-items: center;
+  grid-gap: 7px;
+}
+.header_id{
+  display: none;
+  margin-left: -20px;
+}
