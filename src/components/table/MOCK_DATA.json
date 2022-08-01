@@ -1,0 +1,15 @@
+[{"ad": "FB","campaign":"Campaign 1","total_users":"1","new_users":"1","returning_user":"2","bounce_rate":"1.0%", "pages": "1", "impressions": "1"},
+{"ad": "Google","campaign":"Campaign 2","total_users":"2","new_users":"2","returning_user":"2","bounce_rate":"2.0%", "pages": "2", "impressions": "2"},
+{"ad":"Snap","campaign":"Campaign 3","total_users":"3","new_users":"3","returning_user":"3","bounce_rate":"3.0%", "pages": "3", "impressions": "3"},
+{"ad":"Snap","campaign":"Campaign 3","total_users":"3","new_users":"3","returning_user":"3","bounce_rate":"3.0%", "pages": "3", "impressions": "3"},
+{"ad":"Snap","campaign":"Campaign 3","total_users":"3","new_users":"3","returning_user":"3","bounce_rate":"3.0%", "pages": "3", "impressions": "3"},
+{"ad":"Snap","campaign":"Campaign 3","total_users":"3","new_users":"3","returning_user":"3","bounce_rate":"3.0%", "pages": "3", "impressions": "3"},
+{"ad":"Snap","campaign":"Campaign 3","total_users":"3","new_users":"3","returning_user":"3","bounce_rate":"3.0%", "pages": "3", "impressions": "3"},
+{"ad":"Snap","campaign":"Campaign 2","total_users":"3","new_users":"3","returning_user":"3","bounce_rate":"3.0%", "pages": "3", "impressions": "3"},
+{"ad":"Snap","campaign":"Campaign 4","total_users":"3","new_users":"3","returning_user":"3","bounce_rate":"3.0%", "pages": "3", "impressions": "3"},
+{"ad":"Snap","campaign":"Campaign 3","total_users":"3","new_users":"3","returning_user":"3","bounce_rate":"3.0%", "pages": "3", "impressions": "3"},
+{"ad":"Snap","campaign":"Campaign 2","total_users":"3","new_users":"3","returning_user":"3","bounce_rate":"3.0%", "pages": "3", "impressions": "3"},
+{"ad":"Snap","campaign":"Campaign 2","total_users":"3","new_users":"3","returning_user":"3","bounce_rate":"3.0%", "pages": "3", "impressions": "3"},
+{"ad":"Snap","campaign":"Campaign 2","total_users":"3","new_users":"3","returning_user":"3","bounce_rate":"3.0%", "pages": "3", "impressions": "3"}
+
+]
