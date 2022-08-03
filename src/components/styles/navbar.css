@@ -5,10 +5,11 @@
   background-color: #f9fafc;
   display: grid;
   width: 15vw;
-  padding: 24px 20px;
+  padding: 50px 40px;
   grid-template-rows: repeat(2, -webkit-max-content) 1fr;
   grid-template-rows: repeat(2, max-content) 1fr;
   font-family: 'Montserrat', sent-serif;
+  z-index: 1;
 }
 .navbar .navbar_menu {
   display: grid;
@@ -34,7 +35,7 @@
 }
 .app_inner {
   display: grid;
-  margin: 95px 0 0 23vw;
+  margin: 95px 0 0 22vw;
 }
 
 .active {

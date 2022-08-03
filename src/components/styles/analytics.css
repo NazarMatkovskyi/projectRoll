@@ -1,13 +1,259 @@
-.analytics {
-  width: max-content;
-  height: auto;
-  font-family: 'Montserrat', sent-serif;
-}
+  li {
+    list-style-type: none;
+  }
+  .analytics {
+    width: max-content;
+    height: auto;
+    font-family: 'Montserrat', sent-serif;
+  }
 
-.analytics .analytics_title {
-  color: #38a3a5;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 700;
-}
+  .analytics .analytics_title {
+    color: #38a3a5;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+  }
 
+  .maps_info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 700;
+    color: #22577a;
+  }
+  .col {
+    width: 16px;
+    height: 16px;
+    background-color: #22577a;
+    border-radius: 32px;
+  }
+  .maps_info_inner {
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+  }
+  .employment {
+    font-family: 'Montserrat', sent-serif;
+  }
+  .employment_innerOne {
+    display: grid;
+    grid-gap: 23px;
+    padding-right: 10px;
+  }
+  .employment_inners {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-gap: 23px;
+    padding-right: 10px;
+  }
+  .employment_inners_last{
+    grid-template-columns: 2fr 1fr;
+    display: grid;
+    grid-gap: 23px;
+    padding-right: 10px;
+  }
+  .employment_inner {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-gap: 23px;
+    padding-right: 10px;
+  }
+  .employment_inner-infoBlock {
+    padding: 15px 38px;
+  }
+  .employment_inner-infoMakers {
+    padding: 15px 126px 15px 39px;
+  }
+  .employment_inner-info {
+    border: 1px solid #cdeaea;
+    box-shadow: 0px 4px 14px 0px #0000000d;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #38a3a5;
+    background-color: transparent;
+    margin-bottom: 30px;
+  }
+  .employment-percent {
+    text-align: center;
+    color: #22577a;
+    font-size: 80px;
+    line-height: 97px;
+    font-weight: 700;
+    margin-top: 80px;
+  }
+  .employment-percent_info {
+    margin-top: 30px;
+    color: #f5222d;
+    font-weight: 500;
+    border-radius: 24px;
+    background-color: #f5222d14;
+    text-align: center;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 4px 8px;
+  }
+  .employment-percent_subtitle {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    color: #8f9bb3;
+    grid-gap: 10px;
+    margin-top: 50px;
+  }
+
+  .progress {
+    margin-left: 0px;
+  }
+  .recharts-cartesian-axis-tick {
+    font-size: 12px;
+  }
+
+  .employment_inner-industry {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 13px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    padding-right: 20px;
+  }
+
+  .employment_inner-information {
+    padding: 15px 35px;
+  }
+
+  .industry_title {
+    text-align: right;
+  }
+  .industry_list {
+    display: grid;
+    grid-template-columns: 150px 343px;
+    grid-gap: 20px;
+  }
+
+  .industry_analytics {
+    display: flex;
+    justify-content: flex-end;
+    grid-gap: 43px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 2px;
+    margin-right: -17px;
+  }
+  .infoList {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 30px;
+    align-items: center;
+    transform: rotate(270deg);
+    padding: 0px 30px 50px 30px;
+  }
+  .infoList_inner {
+    width: 180px;
+  }
+  .tableMaketOne {
+    position: absolute;
+    margin-left: 3px;
+    margin-top: 115px;
+    transform: rotate(90deg);
+  }
+  .diagramInfo {
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+    color: #22577a;
+    grid-gap: 36px;
+    transform: rotate(0deg);
+    margin-top: 16px;
+  }
+  .infoD {
+    position: absolute;
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+    color: #22577a;
+    grid-gap: 10px;
+    transform: rotate(90deg);
+    margin-top: 198px;
+    margin-left: -235px;
+  }
+
+  .infoD span {
+    transform: rotate(270deg);
+    display: flex;
+    justify-content: end;
+  }
+  .yaxisName {
+    font-weight: 500;
+    line-height: 16px;
+    font-size: 16px;
+  }
+
+  .employment_inner-infoJob {
+    display: flex;
+    justify-content: center;
+  }
+  .subTitleIndustry {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  .subTitleIndustryBlock {
+    width: 16px;
+    height: 16px;
+    border-radius: 25px;
+    background-color: #80ed99;
+    opacity: 30%;
+  }
+  .subTitleIndustryBlockTwo {
+    width: 16px;
+    height: 16px;
+    border-radius: 25px;
+    background-color: #38a3a5;
+  }
+  .subTitle_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 40px;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .subTitle_info-inner {
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+  }
+  .subTitleIndustry_last {
+    text-align: center;
+    margin: 24px 0px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: rgba(143, 155, 179, 1);
+  }
+  .subTitleIndustry_last_inner {
+    font-weight: 500;
+  }
+  .employment_makers {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  .subTitleMakers {
+    margin-left: 0;
+  }
+  .industry_lists_circle {
+    margin-top: 21px;
+  }
+  .employment_inner-infoBusiness {
+    padding: 15px 0px 10px 20px;
+  }

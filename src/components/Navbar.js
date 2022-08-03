@@ -5,6 +5,7 @@ import logo from '../assets/Logo.png';
 import home from '../assets/Home.png';
 import analytics from '../assets/Analytics.png';
 import pay from '../assets/Pay.png';
+import refocus from '../assets/Refocus.png'
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
@@ -23,6 +24,14 @@ const Navbar = () => {
         <NavLink to="/pay" className="navbar_menu-inner">
           <img src={pay} alt="pay" />
           Pay
+        </NavLink>
+        <NavLink to="/circle" className="navbar_menu-inner">
+          <img src={refocus} alt="refocus" />
+          Interests
+        </NavLink>
+        <NavLink to="/employment" className="navbar_menu-inner">
+          <img src={refocus} alt="refocus" />
+          Employment
         </NavLink>
       </div>
     </div>

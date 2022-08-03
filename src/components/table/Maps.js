@@ -6,7 +6,7 @@ function Maps() {
   const data = [
     { country: 'cn', value: 22 },
     { country: 'us', value: 88 },
-    { country: 'ua', value: 88 },
+    { country: 'ua', value: 273 },
     { country: 'br', value: 230 },
     { country: 'cl', value: 266 },
     { country: 'es', value: 483 },
@@ -16,6 +16,7 @@ function Maps() {
     { country: 'mx', value: 1 },
     { country: 'se', value: 483 },
     { country: 'tj', value: 9999 },
+    { country: 'ca', value: 288 },
   ];
 
   const stylingFunction = (data) => {
@@ -40,7 +41,30 @@ function Maps() {
 
   return (
     <div className="maps">
-      <WorldMap data={data} styleFunction={stylingFunction} />
+      <WorldMap className='map' data={data} styleFunction={stylingFunction}  size="lg"/>
+      <div>
+        <ul className="maps_info">
+          <li className="maps_info_inner">
+            <span className="col"></span>1 - 51
+          </li>
+          <li className="maps_info_inner">
+            <span className="col" style={{ backgroundColor: '#80ED99' }}></span>
+            80 - 168
+          </li>
+          <li className="maps_info_inner">
+            <span className="col" style={{ backgroundColor: '#57CC99' }}></span>
+            228 - 269
+          </li>
+          <li className="maps_info_inner">
+            <span className="col" style={{ backgroundColor: '#38A3A5' }}></span>
+            483
+          </li>
+          <li className="maps_info_inner">
+            <span className="col" style={{ backgroundColor: '#22577A' }}></span>
+            9,333+
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }
